@@ -25,3 +25,14 @@ else
 
 
 
+// string num = "123";
+// if (int.TryParse(num, out int number))
+// {
+//     System.Console.WriteLine(num[2]);
+// }
+// else
+// {
+//     System.Console.WriteLine("не число");
+// }
+
+
