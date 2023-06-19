@@ -6,7 +6,7 @@
 
 System.Console.Write("Введите пятизначное число: ");
 string? num = Console.ReadLine();
-int length = num.Length;
+int length = num.Length ;
 // определение размера числа
 
 if (length == 5)
