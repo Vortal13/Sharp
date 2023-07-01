@@ -12,7 +12,7 @@ void FillMatrixWithRandom(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = Math.Round(rnd.NextDouble(),2) + rnd.Next(0,100);;
+            matrix[i, j] = Math.Round(rnd.NextDouble(),2) + rnd.Next(-10,10);;
         }
     }
 }
