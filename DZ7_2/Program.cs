@@ -39,29 +39,29 @@ bool CheckNumber(int[,] matrix, int number)
         {
             if (matrix[i, j] == number)
             {
-            return true;
+                return true;
             }
-        }      
+        }
     }
     return false;
 }
 
 void NumberPosition(int[,] matrix, int number)
 {
-    int row=0;
-    int column=0;
+    int row = 0;
+    int column = 0;
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if ( matrix[i, j] == number)
+            if (matrix[i, j] == number)
             {
-                row=i;
-                column=j;
-            System.Console.Write($"Заданное число находится на позиции {(row,column)} ");
+                row = i;
+                column = j;
+                System.Console.Write($"Заданное число находится на позиции {(row, column)} ");
             }
         }
-     System.Console.WriteLine();
+        System.Console.WriteLine();
     }
 }
 
